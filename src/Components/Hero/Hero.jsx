@@ -155,13 +155,17 @@ const Hero = ({ heroData, setHeroCount, heroCount, setPlayStatus, playStatus }) 
               </a>
             </div>
           </div>
-          <div className='button-flex'>
+          <div className='button-flex py-3 pt-4'>
             <button>More Courses<img src={arrow_btn} alt=" " /></button>
           </div>
 
 
         </div>
+        <div className='text-center'>
+        <h1 className='text-center pt-5 border-bottom courses-list '>Our Courses list</h1>
+        </div>
         <div className="course-status d-flex py-4 gap-4 px-4 text-center" >
+          
           <div className="status1 rounded-4">
             <img src="" alt="" />
             <div className="overlay-1 ">
@@ -171,6 +175,7 @@ const Hero = ({ heroData, setHeroCount, heroCount, setPlayStatus, playStatus }) 
               </div>
               <div className="status-div">
                 <p>We provide more than 100 courses </p>
+                <button>See All</button>
               </div>
             </div>
           </div>
@@ -183,6 +188,7 @@ const Hero = ({ heroData, setHeroCount, heroCount, setPlayStatus, playStatus }) 
               </div>
               <div className="status-div">
                 <p>We provide more than 100 courses </p>
+                <button>See All</button>
               </div>
             </div>
           </div>
@@ -195,6 +201,7 @@ const Hero = ({ heroData, setHeroCount, heroCount, setPlayStatus, playStatus }) 
               </div>
               <div className="status-div">
                 <p>We provide more than 100 courses </p>
+                <button className='mt-5'>See All</button>
               </div>
             </div>
           </div>
