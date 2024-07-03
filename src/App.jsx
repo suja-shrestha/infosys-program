@@ -5,15 +5,16 @@ import Hero from "./Components/Hero/Hero";
 import './App.css';
 
 
+
 const App = () => {
-    let heroData =[
-        {text1:"Dive into ", text2:"What you love"},
-        {text1:"Indulge", text2:"Your passion"},
-        {text1:"Give in to ", text2:"your passion"},
+    let heroData = [
+        { text1: "Dive into ", text2: "What you love" },
+        { text1: "Indulge", text2: "Your passion" },
+        { text1: "Give in to ", text2: "your passion" },
 
     ]
-    const [heroCount,setHeroCount] = useState(0);
-    const [playStatus,setPlayStatus] = useState(false);
+    const [heroCount, setHeroCount] = useState(0);
+    const [playStatus, setPlayStatus] = useState(false);
     // useEffect(()=>{
     //     setInterval(()=>{
     //         setHeroCount((count)=>{return count===2?0:count+1})
@@ -21,33 +22,19 @@ const App = () => {
     // })
     return (
         <>
-        <div>
-         <Background playStatus={playStatus} heroCount={heroCount}/>
-<Navbar/>
-<Hero 
-setPlayStatus={setPlayStatus}
-heroData={heroData[heroCount]}
-heroCount={heroCount}
-setHeroCount={setHeroCount}
-playStatus={playStatus}
-/>
-     </div>
-     <div className="table">
-        <table>
-            <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-            </tr>
-        </table>
-     </div>
-     </>
+            <div>
+                <Background playStatus={playStatus} heroCount={heroCount} />
+                <Navbar />
+                <Hero
+                    setPlayStatus={setPlayStatus}
+                    heroData={heroData[heroCount]}
+                    heroCount={heroCount}
+                    setHeroCount={setHeroCount}
+                    playStatus={playStatus}
+                />
+            </div>
+           
+        </>
     )
 }
 export default App
- 
