@@ -9,6 +9,7 @@ const Hero = ({ heroData, setHeroCount, heroCount, setPlayStatus, playStatus }) 
       <div className="hero-text">
         <p>{heroData.text1}</p>
         <p>{heroData.text2}</p>
+        
       </div>
 
       <div className="hero-dot-play">

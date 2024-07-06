@@ -14,7 +14,7 @@ const App = () => {
 
     ]
     const [heroCount, setHeroCount] = useState(0);
-    const [playStatus, setPlayStatus] = useState(false);
+    const [playStatus, setPlayStatus] = useState(true);
     // useEffect(()=>{
     //     setInterval(()=>{
     //         setHeroCount((count)=>{return count===2?0:count+1})
@@ -36,5 +36,6 @@ const App = () => {
            
         </>
     )
+    
 }
 export default App
