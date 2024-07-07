@@ -156,12 +156,13 @@ const Hero = ({ heroData, setHeroCount, heroCount, setPlayStatus, playStatus }) 
               </a>
             </div>
           </div>
-          <div className='button-flex py-3 pt-4'>
-            <button>More Courses<img src={arrow_btn} alt=" " /></button>
-          </div>
+         
 
 
         </div>
+        <div className='button-flex py-3 pt-4 d-flex justify-content-center'>
+            <button>More Courses<img src={arrow_btn} alt=" " /></button>
+          </div>
         <div className='text-center'>
         <h1 className='text-center pt-5 border-bottom courses-list '>Our Courses list</h1>
         </div>

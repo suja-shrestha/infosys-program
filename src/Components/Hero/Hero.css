@@ -147,7 +147,7 @@
 }
 
 
-.Courses .button-flex button {
+ .button-flex button {
     background-color: white;
     width: 170px;
     height: 50px;
@@ -158,7 +158,7 @@
     border: 1px solid black;
 }
 
-.Courses .button-flex button:hover {
+.button-flex button:hover {
     background: orangered;
     transition: 0.5s;
     color: white;
