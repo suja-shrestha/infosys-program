@@ -6,7 +6,7 @@
 .containerr{
     position: relative;
     align-items: center; 
-    background-image: url("/src/assets/image2.png");
+    background-image: url("/infosys-program/src/assets/image2.png");
     background-size: cover; 
     background-position: center;
     height: 100vh;
