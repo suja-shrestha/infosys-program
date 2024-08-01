@@ -1,3 +1,8 @@
+/* *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
 .containers {
     background-image: url("/infosys-program/src/assets/image2.png");
     background-size: cover;
@@ -18,7 +23,16 @@
     padding-right: 20px;
 
 }
+#signupForm{
+    width: 300px;
+    backdrop-filter: blur(8px);
+padding: 20px;
+margin-top: 12px;
+border-radius: 20px;
+box-shadow: 0px 14px 18px rgb(65, 59, 59);
+border: 1px solid rgb(29, 24, 24);
 
+}
 
 .nav-logo {
     font-size: 50px;
@@ -70,7 +84,6 @@
 
 .section {
     display: flex;
-    transform: translatey(50%);
     justify-content: center;
     box-sizing: 0 8x 14px black gray;
-}
+} */
