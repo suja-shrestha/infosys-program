@@ -4,6 +4,16 @@ import arrow_btn from '../../assets/arrow_btn.png';
 import play_icon from '../../assets/play_icon.png';
 import pause_icon from '../../assets/pause_icon.png';
 import image3 from '../../assets/image3.png';
+import hacking from '../../assets/hacking.png';
+import hack from '../../assets/hack.png';
+import app from '../../assets/app.png';
+import code from '../../assets/code.png';
+import digital from '../../assets/digital.png';
+import mrketing from '../../assets/mrketing.png';
+import seo from '../../assets/seo.png';
+import socialmedia from '../../assets/socialmedia.png';
+import web from '../../assets/web.png';
+import web1 from '../../assets/web1.png';
 import profile from '../../assets/profile.png';
 import { initializeSwiper } from './main.js';
 const Hero = ({ heroData, setHeroCount, heroCount, setPlayStatus, playStatus }) => {
@@ -29,7 +39,8 @@ const Hero = ({ heroData, setHeroCount, heroCount, setPlayStatus, playStatus }) 
       <div className="hero-dot-play">
         <div className="hero-explore">
           <p>Explore More Courses</p>
-          <a href="https://www.facebook.com/login.php/"><img src={arrow_btn} alt=" " /></a>
+          <img src={arrow_btn} alt=" " />
+
         </div>
         <div>
           <ul className="hero-dots">
@@ -55,9 +66,114 @@ const Hero = ({ heroData, setHeroCount, heroCount, setPlayStatus, playStatus }) 
         <h1 className='name-courses'>Popular Courses Now</h1>
         <div className="Courses">
           <div className="div">
-            <img src={image3} alt="" />
+            <img src={hacking} alt="" />
             <div className="overlay">
-              <h1>Title</h1>
+              <h1>Computer Science</h1>
+              <p>Covers the basics of computer science, including programming, algorithms.</p>
+              <div className="stars">
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star-half-alt"></i>
+              </div>
+              <button>View Course</button>
+            </div>
+          </div>
+          <div className="div">
+            <img src={hack} alt="" />
+            <div className="overlay">
+              <h1>Ethical Hacking</h1>
+              <p>Teaches how to identify and exploit vulnerabilities in systems in a legal and ethical manner</p>
+              <div className="stars">
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star-half-alt"></i>
+              </div>
+              <button>View Course</button>
+            </div>
+          </div>
+          <div className="div">
+            <img src={web} alt="" />
+            <div className="overlay">
+              <h1>Web Development</h1>
+              <p>Focuses on building and designing websites using HTML, CSS, and JavaScript. </p>
+              <div className="stars">
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star-half-alt"></i>
+              </div>
+              <button>View Course</button>
+            </div>
+          </div>
+          <div className="div">
+            <img src={web1} alt="" />
+            <div className="overlay">
+              <h1>Digital Marketing</h1>
+              <p>Provides a broad overview of digital marketing concepts, tools, and strategies.</p>
+              <div className="stars">
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star-half-alt"></i>
+              </div>
+              <button>View Course</button>
+            </div>
+          </div>
+          <div className="div">
+            <img src={socialmedia} alt="" />
+            <div className="overlay">
+              <h1>Data Science and Machine Learning</h1>
+              <p>Teaches how to analyze data, build predictive models, and implement machine learning algorithms</p>
+              <div className="stars">
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star-half-alt"></i>
+              </div>
+              <button>View Course</button>
+            </div>
+          </div>
+          <div className="div">
+            <img src={mrketing} alt="" />
+            <div className="overlay">
+              <h1>Cloud Computing</h1>
+              <p>ntroduces cloud services and platforms such as AWS, Azure, and Google Cloud.`</p>
+              <div className="stars">
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star-half-alt"></i>
+              </div>
+              <button>View Course</button>
+            </div>
+          </div>
+          <div className="div">
+            <img src={seo} alt="" />
+            <div className="overlay">
+              <h1>Search Engine Optimization (SEO)</h1>
+              <p>Focuses on improving a website’s visibility in search engine results pages (SERPs).</p>
+              <div className="stars">
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star-half-alt"></i>
+              </div>
+              <button>View Course</button>
+            </div>
+          </div>
+          <div className="div">
+            <img src={app} alt="" />
+            <div className="overlay">
+              <h1>DevOps Practices</h1>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor accusamus fugit nisi</p>
               <div className="stars">
                 <i className="fas fa-star"></i>
@@ -70,10 +186,10 @@ const Hero = ({ heroData, setHeroCount, heroCount, setPlayStatus, playStatus }) 
             </div>
           </div>
           <div className="div">
-            <img src={image3} alt="" />
+            <img src={digital} alt="" />
             <div className="overlay">
-              <h1>Title</h1>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor accusamus fugit nisi</p>
+              <h1>Blockchain Technology</h1>
+              <p>Introduces the concepts behind blockchain, including how it works and its applications.</p>
               <div className="stars">
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
@@ -85,10 +201,10 @@ const Hero = ({ heroData, setHeroCount, heroCount, setPlayStatus, playStatus }) 
             </div>
           </div>
           <div className="div">
-            <img src={image3} alt="" />
+            <img src={code} alt="" />
             <div className="overlay">
-              <h1>Title</h1>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor accusamus fugit nisi</p>
+              <h1>Web Design</h1>
+              <p>Covers the basics of web design, including HTML, CSS, and design principles. It provides a foundation for understanding how websites are built and styled.</p>
               <div className="stars">
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
@@ -100,10 +216,10 @@ const Hero = ({ heroData, setHeroCount, heroCount, setPlayStatus, playStatus }) 
             </div>
           </div>
           <div className="div">
-            <img src={image3} alt="" />
+            <img src={web} alt="" />
             <div className="overlay">
-              <h1>Title</h1>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor accusamus fugit nisi</p>
+              <h1>Graphic Design</h1>
+              <p>Provides a foundational understanding of graphic design principles, including color theory, typography, layout, and design software.</p>
               <div className="stars">
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
@@ -115,115 +231,10 @@ const Hero = ({ heroData, setHeroCount, heroCount, setPlayStatus, playStatus }) 
             </div>
           </div>
           <div className="div">
-            <img src={image3} alt="" />
+            <img src={socialmedia} alt="" />
             <div className="overlay">
-              <h1>Title</h1>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor accusamus fugit nisi</p>
-              <div className="stars">
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star-half-alt"></i>
-              </div>
-              <button>View Course</button>
-            </div>
-          </div>
-          <div className="div">
-            <img src={image3} alt="" />
-            <div className="overlay">
-              <h1>Title</h1>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor accusamus fugit nisi</p>
-              <div className="stars">
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star-half-alt"></i>
-              </div>
-              <button>View Course</button>
-            </div>
-          </div>
-          <div className="div">
-            <img src={image3} alt="" />
-            <div className="overlay">
-              <h1>Title</h1>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor accusamus fugit nisi</p>
-              <div className="stars">
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star-half-alt"></i>
-              </div>
-              <button>View Course</button>
-            </div>
-          </div>
-          <div className="div">
-            <img src={image3} alt="" />
-            <div className="overlay">
-              <h1>Title</h1>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor accusamus fugit nisi</p>
-              <div className="stars">
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star-half-alt"></i>
-              </div>
-              <button>View Course</button>
-            </div>
-          </div>
-          <div className="div">
-            <img src={image3} alt="" />
-            <div className="overlay">
-              <h1>Title</h1>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor accusamus fugit nisi</p>
-              <div className="stars">
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star-half-alt"></i>
-              </div>
-              <button>View Course</button>
-            </div>
-          </div>
-          <div className="div">
-            <img src={image3} alt="" />
-            <div className="overlay">
-              <h1>Title</h1>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor accusamus fugit nisi</p>
-              <div className="stars">
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star-half-alt"></i>
-              </div>
-              <button>View Course</button>
-            </div>
-          </div>
-          <div className="div">
-            <img src={image3} alt="" />
-            <div className="overlay">
-              <h1>Title</h1>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor accusamus fugit nisi</p>
-              <div className="stars">
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star-half-alt"></i>
-              </div>
-              <button>View Course</button>
-            </div>
-          </div>
-          <div className="div">
-            <img src={image3} alt="" />
-            <div className="overlay">
-              <h1>Title</h1>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor accusamus fugit nisi</p>
+              <h1>App Development</h1>
+              <p> Provides an overview of the app development process, including the lifecycle of an app, basic programming concepts, and different types of applications.</p>
               <div className="stars">
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
@@ -349,11 +360,11 @@ const Hero = ({ heroData, setHeroCount, heroCount, setPlayStatus, playStatus }) 
                   <h2>Stay Connected</h2>
                   
                     
-                      <a href="Sign.html">
+                      <a href="http://127.0.0.1:5500/src/Components/login-real.html/loginn.html">
                         <button type="button" className="signup-btn">Signup</button>
 
                       </a>
-                      <a href="Sign.html">
+                      <a href="http://127.0.0.1:5500/src/Components/login-real.html/loginn.html">
                         <button type="button" className="signup-btn m-3 ">Login</button>
 
                       </a>

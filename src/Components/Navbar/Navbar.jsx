@@ -8,8 +8,8 @@ const Navbar = () => {
                 <input className='search-bar' type="text" placeholder='search here' id='searchh' />
                 </div>
             <ul className="nav-menu">
-                <li className='hove'>Home</li >
-                <li className='hove'>Explore</li >
+                <li  className='hove'>Home</li >
+                <li  className='hove'>Explore</li >
                 <li className='hove'>About</li>
                 <li className='hove'>Carrers</li>
                 <li className='hove'>contact</li >

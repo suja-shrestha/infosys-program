@@ -14,19 +14,26 @@ body {
 }
 
 .hero-text {
-    color: #ccc2c2;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgb(6, 111, 196);
     font-size: 70px;
     font-weight: 500;
     line-height: 110px;
-    position: absolute; /* Position absolutely */
-    top: 100px; /* Adjust based on your layout */
-    left: 120px; /* Adjust based on your layout */
-    width: calc(100% - 240px); /* Adjust based on your layout */
-    z-index: 10; /* Ensure it appears above other content */
+    position: absolute;
+    /* Position absolutely */
+    top: 100px;
+    /* Adjust based on your layout */
+    left: 120px;
+    /* Adjust based on your layout */
+    width: calc(100% - 240px);
+    /* Adjust based on your layout */
+    z-index: 10;
+    /* Ensure it appears above other content */
 }
 
 .hidden {
-    visibility: hidden; /* Hide but keep space occupied */
+    visibility: hidden;
+    /* Hide but keep space occupied */
 }
 
 
@@ -46,12 +53,14 @@ body {
     color: #000000;
     font-weight: 500;
     font-size: 16px;
+    padding-top: 10px;
 }
 
 .hero-dots {
     display: flex;
     gap: 30px;
     list-style: none;
+    margin-left: 230px;
 }
 
 .hero-dot-play {
@@ -61,6 +70,7 @@ body {
     margin-top: 90px;
     width: 800px;
     margin-top: 460px;
+    
 }
 
 .hero-dot {
@@ -79,12 +89,13 @@ body {
     display: flex;
     align-items: center;
     gap: 30px;
+    
 }
 
 .hero-play img {
     cursor: pointer;
     position: absolute;
-    left: 1000px;
+    left: 1300px;
 }
 
 .hero-play p {
@@ -94,11 +105,10 @@ body {
     position: absolute;
     text-align: right;
     width: 180px;
-    left: 700px;
+    left: 1000px;
 }
 
 .hero-explore img {
-    margin-top: 5px;
     width: 60px;
 }
 
@@ -214,6 +224,24 @@ body {
     transition: 1s;
     border: white;
 }
+.status1 button {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    font-size: 16px;
+    width: 100%; /* Set the button to take up the full width of its container */
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    border-radius: 4px;
+    cursor: pointer;
+    box-sizing: border-box; /* Ensure padding is included in the width calculation */
+}
+
+.status1 button:hover {
+    transform: scale(1.05); /* Slightly reduce the scale to avoid too much pop-out */
+    background-color: rgba(0, 0, 0, 0.8); /* Transparent black background */
+    color: white; /* Text color changes to white */
+    border-color: transparent;
+}
 
 .courses-list {
     display: inline-block;
@@ -278,71 +306,84 @@ body {
     background-position: center;
     margin-top: 40px;
 }
+
 .swiper-review p {
     font-size: 18px;
     line-height: 1.5;
     color: black;
 }
+
 .swiper-button-prev,
 .swiper-button-next {
     color: white;
 }
-.status-div button{
+
+.status-div button {
     background-color: white;
     border: 1px solid black;
     width: 80px;
     height: 30px;
     border-radius: 10px;
-    margin-top:40px ;
+    margin-top: 40px;
 }
-.footer-box{
+
+.footer-box {
     width: 97vw;
     margin: 0px 13px;
     height: 400px;
-border: #e0d6d6 1px solid;
-background-color: #f0e6e6;
-    border-radius:5px;
+    border: #e0d6d6 1px solid;
+    background-color: #f0e6e6;
+    border-radius: 5px;
     padding: 15px;
     padding-top: 40px;
 
 }
 
-.footer-box, .col, ol, h2{
+.footer-box,
+.col,
+ol,
+h2 {
     color: black;
     font-weight: 700;
 }
-.footer-box, .col, ol, h2 li{
+
+.footer-box,
+.col,
+ol,
+h2 li {
     color: black;
     font-weight: 400;
 }
+
 .signup-btn {
     padding: 0px 20px;
-    background-color: rgb(7, 51, 146); 
-    color: white; 
-    border: none; 
-    border-radius: 5px; 
-    
-    font-size: 16px; 
-    cursor: pointer; 
-    transition: background-color 0.3s ease, transform 0.2s ease; 
+    background-color: rgb(7, 51, 146);
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
     height: 35px;
 }
 
 .signup-btn:hover {
-    background-color: #0056b3; 
-    transform: scale(1.05); 
+    background-color: #0056b3;
+    transform: scale(1.05);
 }
 
 .signup-btn:active {
-    background-color: #004080; 
-    transform: scale(1); 
+    background-color: #004080;
+    transform: scale(1);
 }
 
 .signup-btn:focus {
-    outline: none; 
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
-.privacy{
+
+.privacy {
     text-align: center;
     padding-top: 50px;
 }
